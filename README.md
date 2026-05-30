@@ -1,12 +1,69 @@
-# React + Vite
+# EV Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React + Vite landing page for an electric vehicle concept called **EV-olution**.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project demonstrates:
 
-## Expanding the ESLint configuration
+- A polished UI with a dark, premium electric vehicle theme
+- Client-side routing using `react-router-dom`
+- A hero section with animated headline states and interactive controls
+- Page navigation for `Home`, `Explore`, `About`, and `Contact`
+- Media-driven background sections using images and video
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Pages
+
+- `/` — Home page with hero animation and intro content
+- `/explore` — Explore page highlighting EV features
+- `/about` — About page describing the product vision
+- `/contact` — Contact page with a call to action
+
+## Installation
+
+```bash
+npm install
+```
+
+## Run locally
+
+```bash
+npm run dev
+```
+
+Open the URL shown in the terminal, typically `http://localhost:5173/` or `http://localhost:5174/`.
+
+## Build
+
+```bash
+npm run build
+```
+
+## Git usage
+
+```bash
+git add .
+git commit -m "Add EV website project"
+git push origin main
+```
+
+If your repo uses `master`, replace `main` with `master`.
+
+## Project structure
+
+- `src/` — React source files
+- `src/Components/` — shared components
+- `src/Pages/` — routed pages
+- `public/` — static assets
+- `vite.config.js` — Vite configuration
+
+## Dependencies
+
+- `react`
+- `react-dom`
+- `react-router-dom`
+- `vite`
+
+---
+
+Built with React, Vite, and modern UI styling for a clean EV landing page experience.
